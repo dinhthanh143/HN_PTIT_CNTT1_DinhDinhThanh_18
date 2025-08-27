@@ -1,0 +1,11 @@
+.singularComps div{
+    border: 1px solid rgb(232, 231, 231);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.203);
+    border-radius: 7px;
+    margin-right: 3%;
+    display: inline-flex;
+    padding: 2%;
+    flex-direction: column;
+    gap: 1%;
+    margin-top: 1%;
+}

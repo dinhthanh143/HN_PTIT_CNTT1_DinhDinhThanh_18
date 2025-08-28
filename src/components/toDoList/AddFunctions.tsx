@@ -14,7 +14,7 @@ export const AddFunctions = ({input,handleAdd,handleInputChange }: StateType) =>
     inputRef.current?.focus()
   }, [])
   return (
-    <div style={{ display: "flex", gap: "2%" }}>
+    <div style={{ display: "flex", gap: "2%",  width:"100%", alignContent:"center", justifyContent:"center" }}>
       <input
         ref={inputRef}
         type="text"
@@ -27,3 +27,4 @@ export const AddFunctions = ({input,handleAdd,handleInputChange }: StateType) =>
     </div>
   );
 };
+
